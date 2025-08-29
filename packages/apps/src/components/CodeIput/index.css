@@ -1,0 +1,26 @@
+.input-wrap {
+  width: 100%;
+}
+
+.input-item {
+  outline: none;
+  width: 46px;
+  height: 50px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+
+  &:focus {
+    border-color: #808080;
+  }
+}
+
+.error-text {
+  padding-top: 6px;
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  color: red;
+}
